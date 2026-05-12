@@ -1,0 +1,7 @@
+# DATEIPFAD: components/Components.yml
+# Blueprint liest diese Datei aus dem dashboard.components-Verzeichnis.
+# Sie registriert den "Mods & Plugins"-Tab in der Server-Ansicht.
+
+Navigation:
+  Routes:
+    - { Name: 'Mods & Plugins', Path: '/universalmanager', Type: 'server', Component: 'UniversalManagerPanel', AdminOnly: 'false' }

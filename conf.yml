@@ -1,0 +1,26 @@
+info:
+  name:        'Universal Manager'
+  identifier:  'universalmanager'
+  description: 'Install mods, plugins, modpacks, resource packs and datapacks from Modrinth, CurseForge, Hangar and SpigotMC directly into your game servers.'
+  version:     '1.0.0'
+  target:      'beta-2025-09'
+  author:      'Jason'
+  icon:        'icon.svg'
+
+admin:
+  view:       'admin/index.blade.php'
+  controller: 'admin/AdminController.php'
+
+dashboard:
+  components: 'components'
+
+data:
+  directory: 'private'
+
+requests:
+  app: 'app'
+  routers:
+    client: 'routes/client.php'
+
+database:
+  migrations: 'migrations'

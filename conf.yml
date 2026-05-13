@@ -3,7 +3,7 @@ info:
   identifier:  'universalmanager'
   description: 'Install mods, plugins, modpacks, resource packs and datapacks from Modrinth, CurseForge, Hangar and SpigotMC directly into your game servers.'
   version:     '1.0.0'
-  target:      'beta-2025-09'
+  target:      'beta-2025-12'
   author:      'Jason'
   icon:        'icon.svg'
 
